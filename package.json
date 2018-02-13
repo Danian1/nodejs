@@ -1,0 +1,20 @@
+{
+  "name": "web_nodejs",
+  "version": "1.0.0",
+  "description": "test nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "Danian",
+  "license": "ISC"
+}

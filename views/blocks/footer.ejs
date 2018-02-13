@@ -1,0 +1,147 @@
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+    <footer>
+      <div id="info-container">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 animated fadeInDown">
+
+              <div class="col s6 m6 l6 xl3">
+                <div class="single-promo pr1">
+                  <i class="large material-icons">call</i>
+                  <h5>+(373) 6965-7829</h5>
+                  <p class="flow-text"> Round-the-clock free hotline (24/7)</p>
+                </div>
+              </div>
+
+              <div class="col s6 m6 l6 xl3">
+                <div class="single-promo pr2">
+                  <i class="large material-icons">local_shipping</i>
+                  <h5>Free shipping</h5>
+                  <p class="flow-text"> Shipping cost for any delivery method and order cost is $49.</p>
+                </div>
+              </div>
+
+              <div class="col s6 m6 l6 xl3">
+                <div class="single-promo pr3">
+                  <i class="large material-icons">security</i>
+                  <h5>Secure payments</h5>
+                  <p class="flow-text"> Cash on delivery, noncash.</p>
+                </div>
+              </div>
+
+              <div class="col s6 m6 l6 xl3">
+                <div class="single-promo pr4">
+                  <i class="large material-icons">sync</i>
+                  <h5>Return & Exchange</h5>
+                  <p class="flow-text"> You can return or exchange the item within 30 days.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="inner-footer">
+        <div class="container">
+          <div class="row animated fadeInDown">
+            <div class="col s12 mod-text">
+              <div class="col s6 m4 l4 xl4 ">
+                <h5>Menu</h5>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+              <div class="col s6 m4 l4 xl4">
+                <h5>Information</h5>
+                <ul>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Account</a></li>
+                  <li><a href="#">Delivey information</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </div>
+              <div class="col s6 m4 l4 xl4">
+                <h5>Store information</h5>
+                <ul>
+                  <li><b>Mobilo</b></li>
+                  <li>Republica of Moldova</li>
+                  <li>Chisinau, Bulevardul Decebal</li>
+                  <li>Working Days: Mon. - Sun.</li>
+                  <li>Working Hours: 9.00AM - 8.00PM</li>
+                  <li><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail:
+                    <a href="mailto:topmobile@gmail.com">topmobile@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col s6 footer-social">
+              <ul class="social-links">
+                <li><a href="#" class="social-icon icon-facebook animated swing"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="social-icon icon-twitter animated swing"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="social-icon icon-youtube animated swing"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#" class="social-icon icon-linkedin animated swing" ><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col s6 copyright">
+              <p>© 2017 Design By Danian. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+  </div>
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/public/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/public/js/script.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+           $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+         }
+    });
+
+    $('#return-to-top').click(function() {      // When arrow is clicked
+         $('body,html').animate({
+             scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+
+    $(".button-collapse").sideNav();
+
+     $('.modal').modal({
+      dismissible: false,
+     });
+
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators:true,
+    });
+  });
+  </script>
+
+  </body>
+</html>
